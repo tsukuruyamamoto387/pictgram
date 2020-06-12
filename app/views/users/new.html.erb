@@ -20,10 +20,10 @@
             <%= f.label :password_confirmation, class: 'text-white' %>
             <%= f.password_field :password_confirmation, class: 'form-control' %>
           </div>
-
+          
           <%= f.submit "登録", class: 'btn-block btn-white' %>
         <% end %>
-        <%= link_to 'ログインはこちら', '#',class: 'text-white' %>
+        <%= link_to 'ログインはこちら', login_path, class: 'text-white' %>
       </div>
     </div>
   </div>
