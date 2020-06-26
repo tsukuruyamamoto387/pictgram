@@ -45,13 +45,13 @@ class ImageUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
 
- def extension_whitelist
+def extension_whitelist
    %w(jpg jpeg png)
-  end
+end
   
-　def size_range
+def size_range
     0..10.megabytes
-　end
+end
   
 end
 
